@@ -24,8 +24,6 @@ def extract_and_rephrase(text, instruction):
 
 # Загрузка модели
 if not os.path.isdir('./models/llm/models--google--flan-t5-base'):
-    print("Загружаем модель flan-t5-base")
     model_name = "google/flan-t5-base"
     tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir='./models/llm')
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name, cache_dir='./models/llm')
-    print("Модель flan-t5-base загружена")
