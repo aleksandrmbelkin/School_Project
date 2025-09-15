@@ -2,7 +2,7 @@
 models/llm/.locks/
 models/llm/models--google--flan-t5-base/
 models/rag/.locks/
-models/rag/paraphrase-multilingual-MiniLM-L12-v2/
+models/rag/models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
