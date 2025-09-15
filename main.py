@@ -26,7 +26,7 @@ def index():
 
 
 def main():
-    db_session.global_init("db/users_favorites.db")
+    db_session.global_init("db/users_saved.db")
     db_session.create_session()
 
     port = int(os.environ.get("PORT", 5000))
